@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<title>My HTML Notes: Udacity</title>
+<div style="text-align: center;">
+    
+<h1 style="color : purple;"> My HTML Notes</h1>
+</div>
+    <div style="text-align: center;">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3plbG10N3lqbTk4a2E2bHZzcTMxODJ4dHMwNWs0cDlubWVtNzVkMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YOczfjtC0H0IMBKhRf/giphy.gif" 
+       alt="Animated coding GIF" 
+       style="width: 200px; height: auto;">
+</div>
+
+<strong  style="color : purple;">Review Notes</strong>
+ <p>Each text editor has its own features like: <br>
+ <ol> 
+    <li>Syntax Highlighting</li>
+    <li>Line Numbers</li>
+ </ol> <br>
+
+Make sure you're using a <em> <strong>text editor</strong></em> and not a <em> <strong>word processor</strong></em>. They can add information to files on how to format text where as a text editor edits plain text files. <br>
+When writing HTML,<strong> make sure to use the extension .html on your file name.</strong> An example would be spiffy.html. <br>
+You can open the file in the browser. <br> 
+<br> If you want to see a change in the browser that was made in the HTML file, you need to save the HTML file and refresh the browser.
+</p>
+<div>
+<h2  style="color : purple;">HTML</h2>
+<p>Markup: <em>Text that has a special meaning</em>Every element starts and ends with a tag.
+<br>
+The first tag <em></em> is called an <mark> opening tag </mark>
+</em> the one with a slash, is called a <mark>closing tag.</mark>
+<br><br>
+<br> HTML tags always start with the < sign and end with a > tag. These are usually referred to as <mark>angle brackets</mark>
+</p>
+</div>
+
+<h3  style="color : purple;">Here are the HTML elements that you've seen so far in this course. If you haven't tried them out yet in your own text editor and browser, this is a great time to do it!
+</h3>
+<ul> 
+<li> em  and strong  — Emphasis. </li>
+    <ol type = "i">
+    <li>By default, text inside em  is displayed as <em>italic</em>, and text in <strong>strong</strong> is displayed as boldface. 
+    </ol> <br>
+<br> <li> p   — Paragraph. </li>
+    <ol type = "i">
+    <li>Text in a paragraph is separated visually from other paragraphs by a small margin. </ol> <br>
+<br> <li> br — Line break. (empty)</li>
+    <ol type = "i">
+    <li> A line break does not create a new paragraph; it only marks the end of a line. </ol> <br>
+<br> <li> sub  and sup  — Subscript and superscript.</li>
+    <ol type = "i">
+    <li>Useful for math and chemistry: I have <sub>x3+2x2 </sub>molecules of <sup>H2O</sup>. </ol> <br>
+<br> <li> mark  — <mark>Highlighting</mark> </li>
+    <ol type = "i">
+    <li> Not very often used, but it's kind of cool. </ol> <br>
+ </ul>
+<br>Of these elements, the br element is the only one that is an empty (or void) element.
+
+<h2><strong  style="color : purple;"> Nested lists</strong></h2> 
+<p>
+You may have noticed that in the provided HTML code, we are adding type="a" to ol elements to specify that the ordered lists should use lowercase letters instead of the default numerical ordering (just like in the example at the top of this page).
+The type attribute for ol offers several options for list item markers:
+<ul> 
+<li>"1" for numbers (the default)</li>
+<br><li>"A" for uppercase letters </li>
+<br><li>"a" for lowercase letters</li>
+<br><li>"I" for uppercase Roman numerals</li>
+<br><li>"i" for lowercase Roman numerals</li>
+</ul>
+</p>
+<a href="https://www.youtube.com/watch?v=DFuvX-RocVo"> Adding Links and the a tag in HTML </a>
+
+<h2> <strong style="color: purple" >Images </strong></h2>
+Images significantly enhance the web's appeal, featuring everything from cat pictures to maps and advertisements. <br>
+The <strong><mark>img </mark></strong> element in HTML, equipped with <trong><mark>src</mark></trong> (source URL) and <strong><mark>alt</mark></strong> (text description) attributes enable the inclusion of these visuals in web pages. <br>
+<br> The <em>ALT </em>attribute is crucial for accessibility, describing when images fail to load due to network issues, are missing, or when assisting visually impaired users with screen readers.<br>
+<br>The <em>IMG</em> element points the browser to an image's location without embedding the file into the HTML document, functioning as an empty element with no closing tag. It integrates directly into the text, influencing layout based on its size. <br>This setup underscores the importance of thoughtfully using images in web design to ensure aesthetic appeal and accessibility.
+<br>
+<h2> <strong style=" color:purple">Files and relative URLs</strong></h2>
+<h3 style="color:blue"> Key Points</h3>
+<ol>
+    <li><strong> Image URLs:</strong>  When including an image in an HTML file, you can use a URL from a server (like placebear.com) or a local file on your computer.
+    <br><li><strong>Relative URLs:</strong>If the image file is in the same folder as your HTML file, you can simply use the file name <em>(e.g., kittens.jpg)</em> in the <em>src</em> attribute of the <em>img</em> tag. This is known as a relative URL.
+    <br><li><strong>Browser Behavior:</strong>When the browser encounters a relative URL, it constructs the full path based on the location of the HTML file. For example, if your HTML file is located at <strong>file:///Users/Karl/courses/notes.html,</strong> the browser will look for <strong>kittens.jpg </strong>in the same directory.   
+    <br><li><strong>Full URLs:</strong> For images or links hosted on a web server, it's best to use a full URL <strong>e.g., https://placebear.com/800/600</strong>.
+    <br><li><strong>Linking to Other Sites:</strong>When creating links to other websites, you must include the full URL <mark>(with http:// or https://),</mark> as relative URLs are only applicable to local files.
+</li>
+</ol>
+<br><h3><strong style="color:blue">Advantages of Relative URLs:</strong></h3>
+Using relative URLs simplifies the HTML code and makes it easier to share files. When sending the HTML file to someone else, you can include the image file, and it will work as long as the files are kept together.
+
+<p>
+    <h2> <strong style="color:red"> Elements Review</strong></h2>
+    <ul>
+        <li><strong>Block Elements</strong>
+            <ol type="a">
+            <br>Block elements are used for large sections of text, <mark>such as paragraphs, headlines, or lists;</mark> and also for some other features such as <mark>video players and tables.</mark>
+            <br>A block element creates a (usually invisible) box in the browser display. By default, this box takes up the full width of the display. The beginning of a block always starts on a new line in the display.
+            <br>Most block elements have a particular way they are displayed by default: paragraphs have margins around them; lists have bullet-points or numbered items; headlines are printed in large text. There is also a generic block element, div, which has no special defaults. <br>
+       <br> <li>p — Paragraph. Text in a paragraph is separated visually from other paragraphs by a small margin.
+       <br> <li>ul and ol — Unordered and ordered lists. By default, ul lists are displayed with bullet points, and ol lists with numbered items.
+       <br> <li>li — List items inside a ul or ol list. The li element has to be nested inside a ul or ol list; it can't occur on its own.
+       <br> <li>Section headers, from h1 (largest) to h6 (smallest). Used for headlines, section titles, and the like.
+       <br> <li>div — A logical division of a page or document. Other block elements such as paragraphs, lists, and headers can be nested inside a div.
+       </ol>
+    <br>You will see the div element much more in the next lesson. Because they don't have any default display settings, divs are heavily used with custom styling with CSS. <br>
+      <br> <li><strong>Inline Elements</strong>
+        <ol type="a">
+            <br>Inline elements do not create a full-width box on the display. They modify the display of text, or insert other things into the text — such as line breaks, images, or hyperlinks. <br>
+            <br><li><mark>em and strong</mark> — Emphasis. By default, text inside an em is displayed as <em>italic</em>, and text in strong is displayed as <strong>Boldface</strong>.
+            <br> <li><mark>br</mark>-line break. -(empty) A line break does not create a new paragraph; it only marks the end of a line.
+            <br><li><mark>sub and sup</mark> — Subscript and superscript. Useful for math and chemistry: I have x3+2x2 molecules of H2O.
+            <br> <li> <mark>Mark</mark> — Highlighting. Not very often used, but it's kind of cool.
+        <br>
+        <br> Some of the inline elements you've seen require attributes, extra information besides the name of the element itself. Attributes are written inside the opening tag of the element. <br>
+        <br> <li><strong><em>img</em></strong> — Images. Needs a src attribute with a URL, and an alt attribute with descriptive text. <br>
+        <br><li><strong><em>a</em></strong> — Hyperlinks. Needs an <mark>href</mark> attribute with a URL.
+        </ol>
+    <br><li><strong>Images</strong> <br>
+        <br>The syntax for the img tag is like this: <em>< img src="Image URL here" alt="A description of the image" ></em> <br>
+        <br> The URL of an image may be an absolute URL, such as <mark>http://placebear.com/800/600</mark>, or it may be a relative URL such as <mark>images/wolves.jpg</mark>. <br>
+        The alt text is used if the image can't be loaded, or if the user can't see images — such as if the user is using a screen reader(opens in a new tab). <br>
+        <br><li><strong> Links</strong> <br>
+            <br>Hyperlinks allow the user to navigate from one page to another. They are created using the <mark>a</mark> element. 
+            The destination of the link is written in an attribute called <mark>href</mark>; the link text appears as the contents of the <mark>a</mark>element. Here's an example: <br>
+            <br> < a href="https://en.wikipedia.org/wiki/Hypertext" target="_blank" >
+  Wikipedia's "Hypertext" article
+</a > <br>
+<br>This code produces a link like this: Wikipedia's "Hypertext" article(opens in a new tab).
+A link within a single web site can be written using a relative URL. Links to other sites must be written as absolute URLs.
+</ul>
+</p>
+
+<p>
+    <h2><strong style="color:purple"> Documents: The DOCTYPE tag</strong></h2>
+    <ul>
+        <li><strong style="color:red">HTML Fragments vs. Full Documents</strong>
+        <br> The HTML written so far consists of fragments, which are snippets that browsers can display but are not complete web pages.<br>
+    <br><li><strong style="color:red">DOCTYPE Tag:</strong>
+    <br>The DOCTYPE tag is a special tag placed at the very top of an HTML document. It indicates the version of HTML being used, which helps browsers render the document correctly.<br>
+    <br><li><strong style="color:red ">Modern DOCTYPE: </strong>
+        <br>The modern DOCTYPE declaration is simply <!DOCTYPE html >. This simplified version is used in contemporary HTML documents.<br>
+    <br><li><strong Style="color:red">Function of DOCTYPE: </strong>
+        <br>The DOCTYPE tag informs the browser that the document should be treated as modern HTML, preventing it from entering "quirks mode." Quirks mode is a compatibility mode for older HTML versions that can lead to rendering issues.<br>
+       <br><li><strong style="Color:red">Importance of DOCTYPE:</strong> 
+        <br>Including the DOCTYPE tag is essential for avoiding bugs, especially in more complex HTML documents. It ensures that browsers interpret the HTML correctly according to modern standards.<br>
+        <br><strong>Every HTML document should start with the DOCTYPE tag to ensure proper rendering and compatibility across different browsers</strong><br>
+        </li>
+    </ul>
+</p>
+
+<p>
+    <h2 Style="color:purple">Are head and body required?</h2>
+    The grammar of HTML does not require that you literally write a <head> or <body> tag in your HTML code. 
+    Many web developers do write these. However, if you <em>don't</em>, the browser will attempt to place them into your code itself.<br>
+<br>It needs to put the head element around certain elements that belong there, such as title; and to put the body element around the elements that form the document's body. 
+This means that all the head elements must appear first, and the body elements after.<br>
+<br>You can't have a head element, such as title, in the middle of your document:<br>
+<img src="C:\Users\mrsen\Downloads\head and body.png" alt = "udacity head and body explanation"> <br>
+<br>So even if you choose not to literally write the <head> and <body> tags in your document, the head and body elements are still created by the browser; and the rest of the document needs to be consistent with this. 
+    But you must make sure that the title and other head parts appear before any paragraphs, lists, images, or other body parts.
+</p>
+    <p>
+        <h1 style="color:purple">Styling with CSS</h1>
+        <br>In this lesson you're going to learn how to add style to your web pages using the <strong>Cascading Style Sheets (CSS)</strong> language. 
+        We'll learn about a whole bunch of key concepts in this lesson, including:
+        <ul>
+            <li><strong>Tree structures:</strong>It's not immediately obvious, but the HTML code for your web page has a branching hierarchy or tree structure. 
+                Understanding this structure will help you apply style to your page more effectively and efficiently. <br>
+         <br>   <li><strong>Using CSS and HTML together:</strong> HTML and CSS are different languages, but we'll learn how to use them together.
+                We'll actually learn three different ways to integrate CSS with the HTML of your web page.<br>
+         <br>   <li><strong>But also separating them:</strong>Although they work closely together, we'll also learn how to separate our CSS, which defines the style of the page, from the HTML, which defines the structure.
+                 This <em>separation of concerns</em> will make our web development far more efficient. <br>
+        <br>       <li><strong>A whole lot of style properties:</strong>We'll learn how improve the look of our HTML pages with CSS style properties—from changing the color of your text to completely changing the layout.
+            </li>
+        </ul>
+
+    </p>
